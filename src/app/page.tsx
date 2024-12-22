@@ -1,13 +1,15 @@
-import React from 'react'
-import Navbar from './components/Navbar'
+'use client'
+
+import React from "react";
 
 const home = () => {
   return (
-    <div className='page-bg'>
-      <Navbar/>
-      Home page
+    <div>
+      <div className="flex items-center justify-center h-screen">
+        <h1 className="text-4xl font-bold">Home Page</h1>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default home
+export default home;

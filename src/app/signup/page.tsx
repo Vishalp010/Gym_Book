@@ -7,14 +7,14 @@ const Page: React.FC = () => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    // Handle login logic here
-    console.log("Logging in with", username, password);
+    // Handle signup logic here
+    console.log("Signing up with", username, password);
   };
 
   return (
     <div className="bg-gray-50 text-gray-800 flex flex-col items-center justify-center min-h-screen">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-sm">
-        <h1 className="text-3xl font-bold text-center mb-6">Login</h1>
+        <h1 className="text-3xl font-bold text-center mb-6">Sign Up</h1>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -49,17 +49,17 @@ const Page: React.FC = () => {
 
           <button
             type="submit"
-            className="w-full mt-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none"
+            className="w-full mt-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 focus:outline-none"
           >
-            Login
+            Sign Up
           </button>
         </form>
 
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-600">
-            Don't have an account?{" "}
-            <a href="/signup" className="text-blue-600 hover:text-blue-800">
-              Sign Up
+            Already have an account?{" "}
+            <a href="/login" className="text-blue-600 hover:text-blue-800">
+              Login
             </a>
           </p>
         </div>

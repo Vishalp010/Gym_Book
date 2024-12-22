@@ -19,6 +19,10 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
+a {
+  @apply hover:text-gray-400 transition-colors text-gray-600;
+}
+
 
 @layer base {
   :root {
