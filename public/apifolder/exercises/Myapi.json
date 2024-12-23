@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Front Squats With Two Kettlebells",
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "kettlebells",
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "glutes"
+    ],
+    "instructions": [
+      "Clean two kettlebells to your shoulders. Clean the kettlebells to your shoulders by extending through the legs and hips as you pull the kettlebells towards your shoulders. Rotate your wrists as you do so.",
+      "Looking straight ahead at all times, squat as low as you can and pause at the bottom. As you squat down, push your knees out. You should squat between your legs, keeping an upright torso, with your head and chest up.",
+      "Rise back up by driving through your heels and repeat."
+    ],
+    "category": "strength",
+    "images": [
+      "Front_Squats_With_Two_Kettlebells/0.jpg",
+      "Front_Squats_With_Two_Kettlebells/1.jpg"
+    ],
+    "id": "Front_Squats_With_Two_Kettlebells"
+  },{
+    "name": "Zottman Preacher Curl",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "instructions": [
+      "Grab a dumbbell in each hand and place your upper arms on top of the preacher bench or the incline bench. The dumbbells should be held at shoulder height and the elbows should be flexed. Hold the dumbbells with the palms of your hands facing down. This will be your starting position.",
+      "As you breathe in, slowly lower the dumbbells keeping the palms down until your upper arm is extended and your biceps are fully stretched.",
+      "Now rotate your wrists once you are at the bottom of the movement so that the palms of the hands are facing up.",
+      "As you exhale, use your biceps to curl the weights up until they are fully contracted and the dumbbells are at shoulder height. Again, remember that to ensure full contraction you need to bring that small finger higher than the thumb.",
+      "Squeeze the biceps hard for a second at the contracted position and rotate your wrists so that the palms are facing down again.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Zottman_Preacher_Curl/0.jpg",
+      "Zottman_Preacher_Curl/1.jpg"
+    ],
+    "id": "Zottman_Preacher_Curl"
+  },{
+    "name": "Wide-Grip Decline Barbell Pullover",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Lie down on a decline bench with both legs securely locked in position. Reach for the barbell behind the head using a pronated grip (palms facing out). Make sure to grab the barbell wider than shoulder width apart for this exercise. Slowly lift the barbell up from the floor by using your arms.",
+      "When positioned properly, your arms should be fully extended and perpendicular to the floor. This is the starting position.",
+      "Begin by moving the barbell back down in a semicircular motion as if you were going to place it on the floor, but instead, stop when the arms are parallel to the floor. Tip: Keep the arms fully extended at all times. The movement should only happen at the shoulder joint. Inhale as you perform this portion of the movement.",
+      "Now bring the barbell up while exhaling until you are back at the starting position. Remember to keep full control of the barbell at all times.",
+      "Repeat the movement for the prescribed amount of repetitions of your training program.",
+      "When finished with your set, slowly lower the barbell back down until it is level with your head and release it."
+    ],
+    "category": "strength",
+    "images": [
+      "Wide-Grip_Decline_Barbell_Pullover/0.jpg",
+      "Wide-Grip_Decline_Barbell_Pullover/1.jpg"
+    ],
+    "id": "Wide-Grip_Decline_Barbell_Pullover"
+  },
+  {
+    "name": "Upward Stretch",
+    "force": "static",
+    "level": "beginner",
+    "mechanic": null,
+    "equipment": null,
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "lats"
+    ],
+    "instructions": [
+      "Extend both hands straight above your head, palms touching.",
+      "Slowly push your hands up and back, keeping your back straight."
+    ],
+    "category": "stretching",
+    "images": [
+      "Upward_Stretch/0.jpg",
+      "Upward_Stretch/1.jpg"
+    ],
+    "id": "Upward_Stretch"
+  },
+  {
+    "name": "Supine One-Arm Overhead Throw",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "medicine ball",
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "lats",
+      "shoulders"
+    ],
+    "instructions": [
+      "Lay on the ground on your back with your knees bent. Hold the ball with one hand, extending the arm fully behind your head. This will be your starting position.",
+      "Initiate the movement at the shoulder, throwing the ball directly forward of you as you sit up, attempting to go for maximum distance.",
+      "The ball can be thrown to a partner or bounced off of a wall."
+    ],
+    "category": "plyometrics",
+    "images": [
+      "Supine_One-Arm_Overhead_Throw/0.jpg",
+      "Supine_One-Arm_Overhead_Throw/1.jpg"
+    ],
+    "id": "Supine_One-Arm_Overhead_Throw"
+  },
+  {
+    "name": "Standing Palms-In Dumbbell Press",
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "triceps"
+    ],
+    "instructions": [
+      "Start by having a dumbbell in each hand with your arm fully extended to the side using a neutral grip. Your feet should be shoulder width apart from each other. Now slowly lift the dumbbells up until you create a 90 degree angle with your arms. Note: Your forearms should be perpendicular to the floor. This the starting position.",
+      "Continue to maintain a neutral grip throughout the entire exercise. Slowly lift the dumbbells up until your arms are fully extended.",
+      "While inhaling lower the weights down until your arm is at a 90 degree angle again.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Standing_Palms-In_Dumbbell_Press/0.jpg",
+      "Standing_Palms-In_Dumbbell_Press/1.jpg"
+    ],
+    "id": "Standing_Palms-In_Dumbbell_Press"
+  },
+  {
+    "name": "Snatch",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "traps",
+      "triceps"
+    ],
+    "instructions": [
+      "Place your feet at a shoulder width stance with the barbell resting right above the connection between the toes and the rest of the foot.",
+      "With a palms facing down grip, bend at the knees and keeping the back flat grab the bar using a wider than shoulder width grip. Bring the hips down and make sure that your body drops as if you were going to sit on a chair. This will be your starting position.",
+      "Start pushing the floor as if it were a moving platform with your feet and simultaneously start lifting the barbell keeping it close to your legs.",
+      "As the bar reaches the middle of your thighs, push the floor with your legs and lift your body to a complete extension in an explosive motion.",
+      "Lift your shoulders back in a shrugging movement as you bring the bar up while lifting your elbows out to the side and keeping them above the bar for as long as possible.",
+      "Now in a very quick but powerful motion, you have to get your body under the barbell when it has reached a high enough point where it can be controlled and drop while locking your arms and holding the barbell overhead as you assume a squat position.",
+      "Finalize the movement by rising up out of the squat position to finish the lift. At the end of the lift both feet should be on line and the arms fully extended holding the barbell overhead."
+    ],
+    "category": "olympic weightlifting",
+    "images": [
+      "Snatch/0.jpg",
+      "Snatch/1.jpg"
+    ],
+    "id": "Snatch"
+  },
+  {
+    "name": "Wide-Grip Barbell Bench Press",
+    "force": "push",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Lie back on a flat bench with feet firm on the floor. Using a wide, pronated (palms forward) grip that is around 3 inches away from shoulder width (for each hand), lift the bar from the rack and hold it straight over you with your arms locked. The bar will be perpendicular to the torso and the floor. This will be your starting position.",
+      "As you breathe in, come down slowly until you feel the bar on your middle chest.",
+      "After a second pause, bring the bar back to the starting position as you breathe out and push the bar using your chest muscles. Lock your arms and squeeze your chest in the contracted position, hold for a second and then start coming down slowly again. Tip: It should take at least twice as long to go down than to come up.",
+      "Repeat the movement for the prescribed amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Wide-Grip_Barbell_Bench_Press/0.jpg",
+      "Wide-Grip_Barbell_Bench_Press/1.jpg"
+    ],
+    "id": "Wide-Grip_Barbell_Bench_Press"
+  },
+  {
+    "name": "Wrist Roller",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "other",
+    "primaryMuscles": [
+      "forearms"
+    ],
+    "secondaryMuscles": [
+      "shoulders"
+    ],
+    "instructions": [
+      "To begin, stand straight up grabbing a wrist roller using a pronated grip (palms facing down). Your feet should be shoulder width apart.",
+      "Slowly lift both arms until they are fully extended and parallel to the floor in front of you. Note: Make sure the rope is not wrapped around the roller. Your entire body should be stationary except for the forearms. This is the starting position.",
+      "Rotate one wrist at a time in an upward motion to bring the weight up to the bar by rolling the rope around the roller.",
+      "Once the weight has reached the bar, slowly begin to lower the weight back down by rotating the wrist in a downward motion until the weight reaches the starting position.",
+      "Repeat for the prescribed amount of repetitions in your program."
+    ],
+    "category": "strength",
+    "images": [
+      "Wrist_Roller/0.jpg",
+      "Wrist_Roller/1.jpg"
+    ],
+    "id": "Wrist_Roller"
+  },
+  {
+    "name": "Side Hop-Sprint",
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "other",
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "abductors",
+      "adductors",
+      "calves",
+      "hamstrings"
+    ],
+    "instructions": [
+      "Stand to the side of a cone or hurdle.",
+      "Begin this drill by hopping sideways over the obstacle, rebounding out of your landing to hop back to where you started.",
+      "Hop for a prescribed number or repetitions as quickly as possible, and finish this drill by sprinting a short distance upon landing the last hop."
+    ],
+    "category": "plyometrics",
+    "images": [
+      "Side_Hop-Sprint/0.jpg",
+      "Side_Hop-Sprint/1.jpg"
+    ],
+    "id": "Side_Hop-Sprint"
+  },
+  {
+    "name": "Push-Up Wide",
+    "force": null,
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "abdominals",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "With your hands wide apart, support your body on your toes and hands in a plank position. Your elbows should be extended and your body straight. Do not allow your hips to sag. This will be your starting position.",
+      "To begin, allow the elbows to flex, lowering your chest to the floor as you inhale.",
+      "Using your pectoral muscles, press your upper body back up to the starting position by extending the elbows. Exhale as you perform this step.",
+      "After pausing at the contracted position, repeat the movement for the prescribed amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Push-Up_Wide/0.jpg",
+      "Push-Up_Wide/1.jpg"
+    ],
+    "id": "Push-Up_Wide"
+  },
+  {
+    "name": "Push Press",
+    "force": "push",
+    "level": "expert",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+      "quadriceps",
+      "triceps"
+    ],
+    "instructions": [
+  
+    ],
+    "category": "olympic weightlifting",
+    "images": [
+      "Push_Press/0.jpg",
+      "Push_Press/1.jpg"
+    ],
+    "id": "Push_Press"
+  },
+  {
+    "name": "Push-Ups With Feet Elevated",
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Lie on the floor face down and place your hands about 36 inches apart from each other holding your torso up at arms length.",
+      "Place your toes on top of a flat bench. This will allow your body to be elevated. Note: The higher the elevation of the flat bench, the higher the resistance of the exercise is.",
+      "Lower yourself until your chest almost touches the floor as you inhale.",
+      "Using your pectoral muscles, press your upper body back up to the starting position and squeeze your chest. Breathe out as you perform this step.",
+      "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Push-Ups_With_Feet_Elevated/0.jpg",
+      "Push-Ups_With_Feet_Elevated/1.jpg"
+    ],
+    "id": "Push-Ups_With_Feet_Elevated"
+  },
+  {
+    "name": "Pushups",
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Lie on the floor face down and place your hands about 36 inches apart while holding your torso up at arms length.",
+      "Next, lower yourself downward until your chest almost touches the floor as you inhale.",
+      "Now breathe out and press your upper body back up to the starting position while squeezing your chest.",
+      "After a brief pause at the top contracted position, you can begin to lower yourself downward again for as many repetitions as needed."
+    ],
+    "category": "strength",
+    "images": [
+      "Pushups/0.jpg",
+      "Pushups/1.jpg"
+    ],
+    "id": "Pushups"
+  },
+  {
+    "name": "Push Up to Side Plank",
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "chest"
+    ],
+    "secondaryMuscles": [
+      "abdominals",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Get into pushup position on the toes with your hands just outside of shoulder width.",
+      "Perform a pushup by allowing the elbows to flex. As you descend, keep your body straight.",
+      "Do one pushup and as you come up, shift your weight on the left side of the body, twist to the side while bringing the right arm up towards the ceiling in a side plank.",
+      "Lower the arm back to the floor for another pushup and then twist to the other side.",
+      "Repeat the series, alternating each side, for 10 or more reps."
+    ],
+    "category": "strength",
+    "images": [
+      "Push_Up_to_Side_Plank/0.jpg",
+      "Push_Up_to_Side_Plank/1.jpg"
+    ],
+    "id": "Push_Up_to_Side_Plank"
+  },
+  {
+    "name": "Pullups",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "lats"
+    ],
+    "secondaryMuscles": [
+      "biceps",
+      "middle back"
+    ],
+    "instructions": [
+      "Grab the pull-up bar with the palms facing forward using the prescribed grip. Note on grips: For a wide grip, your hands need to be spaced out at a distance wider than your shoulder width. For a medium grip, your hands need to be spaced out at a distance equal to your shoulder width and for a close grip at a distance smaller than your shoulder width.",
+      "As you have both arms extended in front of you holding the bar at the chosen grip width, bring your torso back around 30 degrees or so while creating a curvature on your lower back and sticking your chest out. This is your starting position.",
+      "Pull your torso up until the bar touches your upper chest by drawing the shoulders and the upper arms down and back. Exhale as you perform this portion of the movement. Tip: Concentrate on squeezing the back muscles once you reach the full contracted position. The upper torso should remain stationary as it moves through space and only the arms should move. The forearms should do no other work other than hold the bar.",
+      "After a second on the contracted position, start to inhale and slowly lower your torso back to the starting position when your arms are fully extended and the lats are fully stretched.",
+      "Repeat this motion for the prescribed amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Pullups/0.jpg",
+      "Pullups/1.jpg"
+    ],
+    "id": "Pullups"
+  },
+  {
+    "name": "Pull Through",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "cable",
+    "primaryMuscles": [
+      "glutes"
+    ],
+    "secondaryMuscles": [
+      "hamstrings",
+      "lower back"
+    ],
+    "instructions": [
+      "Begin standing a few feet in front of a low pulley with a rope or handle attached. Face away from the machine, straddling the cable, with your feet set wide apart.",
+      "Begin the movement by reaching through your legs as far as possible, bending at the hips. Keep your knees slightly bent. Keeping your arms straight, extend through the hip to stand straight up. Avoid pulling upward through the shoulders; all of the motion should originate through the hips."
+    ],
+    "category": "strength",
+    "images": [
+      "Pull_Through/0.jpg",
+      "Pull_Through/1.jpg"
+    ],
+    "id": "Pull_Through"
+  },
+  {
+    "name": "Power Stairs",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "other",
+    "primaryMuscles": [
+      "hamstrings"
+    ],
+    "secondaryMuscles": [
+      "adductors",
+      "calves",
+      "glutes",
+      "lower back",
+      "quadriceps",
+      "shoulders",
+      "traps"
+    ],
+    "instructions": [
+      "In the power stairs, implements are moved up a staircase. For training purposes, these can be performed with a tire or box.",
+      "Begin by taking the implement with both hands. Set your feet wide, with your head and chest up. Drive through the ground with your heels, extending your knees and hips to raise the weight from the ground.",
+      "As you lean back, attempt to swing the weight onto the stairs, which are usually around 16-18\" high. You can use your legs to help push the weight onto the stair.",
+      "Repeat for 3-5 repetitions, and continue with a heavier weight, moving as fast as possible."
+    ],
+    "category": "strongman",
+    "images": [
+      "Power_Stairs/0.jpg",
+      "Power_Stairs/1.jpg"
+    ],
+    "id": "Power_Stairs"
+  },
+  {
+    "name": "Power Snatch from Blocks",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "calves",
+      "forearms",
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "traps",
+      "triceps"
+    ],
+    "instructions": [
+      "Begin with a loaded barbell on boxes or stands of the desired height. A wide grip should be taken on the bar. The feet should be directly below the hips, with the feet turned out as needed. Lower the hips, with the chest up and the head looking forward. The shoulders should be just in front of the bar, with the elbows pointed out. This will be the starting position.",
+      "Begin the first pull by driving through the front of the heels, raising the bar from the boxes.",
+      "Transition into the second pull by extending through the hips knees and ankles, driving the bar up as quickly as possible. The bar should be close to the body. At peak extension, shrug the shoulders and allow the elbows to flex to the side.",
+      "As you move your feet into the receiving position, forcefully pull yourself below the bar as you elevate the bar overhead. The feet should move to just outside the hips, turned out as necessary. Receive the bar above a full squat and with the arms fully extended overhead.",
+      "Keeping the bar aligned over the front of the heels, your head and chest up, drive through heels of the feet to move to a standing position. Carefully return the weight to the boxes."
+    ],
+    "category": "olympic weightlifting",
+    "images": [
+      "Power_Snatch_from_Blocks/0.jpg",
+      "Power_Snatch_from_Blocks/1.jpg"
+    ],
+    "id": "Power_Snatch_from_Blocks"
+  },
+  {
+    "name": "Preacher Hammer Dumbbell Curl",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+      "forearms"
+    ],
+    "instructions": [
+      "Place the upper part of both arms on top of the preacher bench as you hold a dumbbell in each hand with the palms facing each other (neutral grip).",
+      "As you breathe in, slowly lower the dumbbells until your upper arm is extended and the biceps is fully stretched.",
+      "As you exhale, use the biceps to curl the weight up until your biceps is fully contracted and the dumbbells are at shoulder height.",
+      "Squeeze the biceps hard for a second at the contracted position and repeat for the recommended amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Preacher_Hammer_Dumbbell_Curl/0.jpg",
+      "Preacher_Hammer_Dumbbell_Curl/1.jpg"
+    ],
+    "id": "Preacher_Hammer_Dumbbell_Curl"
+  },
+  {
+    "name": "Power Partials",
+    "force": "push",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "dumbbell",
+    "primaryMuscles": [
+      "shoulders"
+    ],
+    "secondaryMuscles": [
+  
+    ],
+    "instructions": [
+      "Stand up with your torso upright and a dumbbell on each hand being held at arms length. The elbows should be close to the torso.",
+      "The palms of the hands should be facing your torso. Your feet should be about shoulder width apart. This will be your starting position.",
+      "Keeping your arms straight and the torso stationary, lift the weights out to your sides until they are about shoulder level height while exhaling.",
+      "Feel the contraction for a second and begin to lower the weights back down to the starting position while inhaling. Tip: Keep the palms facing down with the little finger slightly higher while lifting and lowering the weights as it will concentrate the stress on your shoulders mainly.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Power_Partials/0.jpg",
+      "Power_Partials/1.jpg"
+    ],
+    "id": "Power_Partials"
+  },
+  {
+    "name": "Plate Twist",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "compound",
+    "equipment": "other",
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+  
+    ],
+    "instructions": [
+      "Lie down on the floor or an exercise mat with your legs fully extended and your upper body upright. Grab the plate by its sides with both hands out in front of your abdominals with your arms slightly bent.",
+      "Slowly cross your legs near your ankles and lift them up off the ground. Your knees should also be bent slightly. Note: Move your upper body back slightly to help keep you balanced turning this exercise. This is the starting position.",
+      "Move the plate to the left side and touch the floor with it. Breathe out as you perform that movement.",
+      "Come back to the starting position as you breathe in and then repeat the movement but this time to the right side of the body. Tip: Use a slow controlled movement at all times. Jerking motions can injure the back.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "Plate_Twist/0.jpg",
+      "Plate_Twist/1.jpg"
+    ],
+    "id": "Plate_Twist"
+  },
+  {
+    "name": "Plank",
+    "force": "static",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "body only",
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+  
+    ],
+    "instructions": [
+      "Get into a prone position on the floor, supporting your weight on your toes and your forearms. Your arms are bent and directly below the shoulder.",
+      "Keep your body straight at all times, and hold this position as long as possible. To increase difficulty, an arm or leg can be raised."
+    ],
+    "category": "strength",
+    "images": [
+      "Plank/0.jpg",
+      "Plank/1.jpg"
+    ],
+    "id": "Plank"
+  },
+  {
+    "name": "Overhead Stretch",
+    "force": "static",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": null,
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "forearms",
+      "lats",
+      "triceps"
+    ],
+    "instructions": [
+      "Standing straight up, lace your fingers together and open your palms to the ceiling. Keep your shoulders down as you extend your arms up.",
+      "To create a full torso stretch, pull your tailbone down and stabilize your torso as you do this. Stretch the muscles on both the front and the back of the torso."
+    ],
+    "category": "stretching",
+    "images": [
+      "Overhead_Stretch/0.jpg",
+      "Overhead_Stretch/1.jpg"
+    ],
+    "id": "Overhead_Stretch"
+  },
+  {
+    "name": "Overhead Squat",
+    "force": "push",
+    "level": "expert",
+    "mechanic": "compound",
+    "equipment": "barbell",
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "abdominals",
+      "calves",
+      "glutes",
+      "hamstrings",
+      "lower back",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Start out by having a barbell in front of you on the floor. Your feet should be wider than shoulder width apart from each other.",
+      "Bend the knees and use a pronated grip (palms facing you) to grab the barbell. Your hands should be at a wider than shoulder width apart from each other before lifting. Once you are positioned, lift the barbell up until you can rest it on your chest.",
+      "Move the barbell over and slightly behind your head and make sure your arms are fully extended. Keep your head up at all times and also maintain a straight back. Retract your shoulder blades. This is your starting position.",
+      "Slowly lower the weight by bending your knees until your thighs are parallel to the ground while inhaling. Tip: Keep your back straight while performing this exercise to avoid any injuries and your arms should remain extended and over your head at all times.",
+      "Now use your feet and legs to help bring the weight back up to the starting position while exhaling.",
+      "Repeat for the recommended amount of repetitions."
+    ],
+    "category": "olympic weightlifting",
+    "images": [
+      "Overhead_Squat/0.jpg",
+      "Overhead_Squat/1.jpg"
+    ],
+    "id": "Overhead_Squat"
+  },
+  {
+    "name": "Pallof Press",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "isolation",
+    "equipment": "cable",
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "chest",
+      "shoulders",
+      "triceps"
+    ],
+    "instructions": [
+      "Connect a standard handle to a tower, and—if possible—position the cable to shoulder height. If not, a low pulley will suffice.",
+      "With your side to the cable, grab the handle with both hands and step away from the tower. You should be approximately arm's length away from the pulley, with the tension of the weight on the cable.",
+      "With your feet positioned hip-width apart and knees slightly bent, hold the cable to the middle of your chest. This will be your starting position.",
+      "Press the cable away from your chest, fully extending both arms. You core should be tight and engaged.",
+      "Hold the repetition for several seconds before returning to the starting position.",
+      "At the conclusion of the set, repeat facing the other direction."
+    ],
+    "category": "strength",
+    "images": [
+      "Pallof_Press/0.jpg",
+      "Pallof_Press/1.jpg"
+    ],
+    "id": "Pallof_Press"
+  },
+  {
+    "name": "Overhead Cable Curl",
+    "force": "pull",
+    "level": "intermediate",
+    "mechanic": "isolation",
+    "equipment": "cable",
+    "primaryMuscles": [
+      "biceps"
+    ],
+    "secondaryMuscles": [
+  
+    ],
+    "instructions": [
+      "To begin, set a weight that is comfortable on each side of the pulley machine. Note: Make sure that the amount of weight selected is the same on each side.",
+      "Now adjust the height of the pulleys on each side and make sure that they are positioned at a height higher than that of your shoulders.",
+      "Stand in the middle of both sides and use an underhand grip (palms facing towards the ceiling) to grab each handle. Your arms should be fully extended and parallel to the floor with your feet positioned shoulder width apart from each other. Your body should be evenly aligned the handles. This is the starting position.",
+      "While exhaling, slowly squeeze the biceps on each side until your forearms and biceps touch.",
+      "While inhaling, move your forearms back to the starting position. Note: Your entire body is stationary during this exercise except for the forearms.",
+      "Repeat for the recommended amount of repetitions prescribed in your program."
+    ],
+    "category": "strength",
+    "images": [
+      "Overhead_Cable_Curl/0.jpg",
+      "Overhead_Cable_Curl/1.jpg"
+    ],
+    "id": "Overhead_Cable_Curl"
+  },
+  {
+    "name": "One-Arm Medicine Ball Slam",
+    "force": "pull",
+    "level": "beginner",
+    "mechanic": "compound",
+    "equipment": "medicine ball",
+    "primaryMuscles": [
+      "abdominals"
+    ],
+    "secondaryMuscles": [
+      "lats",
+      "shoulders"
+    ],
+    "instructions": [
+      "Start in a standing position with a staggered, athletic stance. Hold a medicine ball in one hand, on the same side as your back leg. This will be your starting position.",
+      "Begin by winding the arm, raising the medicine ball above your head. As you do so, extend through the hips, knees, and ankles to load up for the slam.",
+      "At peak extension, flex the shoulders, spine, and hips to throw the ball hard into the ground directly in front of you.",
+      "Catch the ball on the bounce and continue for the desired number of repetitions."
+    ],
+    "category": "strength",
+    "images": [
+      "One-Arm_Medicine_Ball_Slam/0.jpg",
+      "One-Arm_Medicine_Ball_Slam/1.jpg"
+    ],
+    "id": "One-Arm_Medicine_Ball_Slam"
+  },
+  {
+    "name": "One Half Locust",
+    "force": "static",
+    "level": "beginner",
+    "mechanic": null,
+    "equipment": null,
+    "primaryMuscles": [
+      "quadriceps"
+    ],
+    "secondaryMuscles": [
+      "abdominals",
+      "biceps",
+      "chest"
+    ],
+    "instructions": [
+      "Lie facedown on the floor.",
+      "Put your left hand under your left hipbone to pad your hip and pubic bone.",
+      "Bend your right knee so you can hold the foot in your right hand.",
+      "Lift the foot in the air and simultaneously lift your shoulders off the floor. This also stretches the right hip flexor and the chest and shoulders. Switch sides. If it doesn't bother your back, you can try it with both arms and legs at the same time."
+    ],
+    "category": "stretching",
+    "images": [
+      "One_Half_Locust/0.jpg",
+      "One_Half_Locust/1.jpg"
+    ],
+    "id": "One_Half_Locust"
+  }
+]
