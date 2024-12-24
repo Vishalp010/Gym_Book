@@ -7,9 +7,9 @@ import Image from "next/image";
 // Define the type for each object in the array
 type DataItem = {
   name: string;
-  force: string;
+  force: string | null;
   level: string;
-  mechanic: string;
+  mechanic: string | null;
   equipment: string;
   primaryMuscles: string[];
   secondaryMuscles: string[];
@@ -25,17 +25,19 @@ const Home: React.FC = () => {
   const [expandedCards, setExpandedCards] = useState<{ [key: string]: boolean }>({});
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [filteredData, setFilteredData] = useState<DataItem[]>([]);
-  const [showError, setShowError] = useState<boolean>(false); // Error state
+  const [showError, setShowError] = useState<boolean>(false);
 
   // Fetch data automatically on component mount
   useEffect(() => {
     axios
       .get("/apifolder/exercises/Myapi.json")
       .then((response) => {
-        // Assuming the response is an object, convert it to an array
-        const fetchedData: DataItem[] = Object.values(response.data);
+        // Cast the response data to an array of DataItem type and filter only intermediate exercises
+        const fetchedData: DataItem[] = Object.values(response.data as { [key: string]: DataItem }).filter(
+          (item: DataItem) => item.level.toLowerCase() === "expert"
+        );
         setData(fetchedData);
-        setFilteredData(fetchedData); // Initially show all exercises
+        setFilteredData(fetchedData);
 
         // Initialize current image index and expanded state for each exercise
         const initialImageIndex: { [key: string]: number } = {};
@@ -56,7 +58,7 @@ const Home: React.FC = () => {
   const handleNextImage = (id: string, imagesLength: number): void => {
     setCurrentImageIndex((prev) => ({
       ...prev,
-      [id]: (prev[id] + 1) % imagesLength, // Loop back to the first image
+      [id]: (prev[id] + 1) % imagesLength,
     }));
   };
 
@@ -64,7 +66,7 @@ const Home: React.FC = () => {
   const handlePrevImage = (id: string, imagesLength: number): void => {
     setCurrentImageIndex((prev) => ({
       ...prev,
-      [id]: (prev[id] - 1 + imagesLength) % imagesLength, // Loop back to the last image
+      [id]: (prev[id] - 1 + imagesLength) % imagesLength,
     }));
   };
 
@@ -77,25 +79,20 @@ const Home: React.FC = () => {
   };
 
   // Search handler
-  // Search handler
-const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
-  const query = event.target.value.toLowerCase();
-  setSearchQuery(query);
+  const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const query = event.target.value.toLowerCase();
+    setSearchQuery(query);
 
-  // Filter exercises based on level, category, or primary muscles
-  const filtered = data.filter(
-    (item) =>
-      item.level.toLowerCase().includes(query) ||
-      item.category.toLowerCase().includes(query) ||
-      item.primaryMuscles.some((muscle) => muscle.toLowerCase().includes(query)) ||
-      item.secondaryMuscles.some((muscle) => muscle.toLowerCase().includes(query)) 
-  );
-  setFilteredData(filtered);
-
-  // If no results match the search, show the error message
-  setShowError(filtered.length === 0);
-};
-
+    const filtered = data.filter(
+      (item) =>
+        item.level.toLowerCase().includes(query) ||
+        item.category.toLowerCase().includes(query) ||
+        item.primaryMuscles.some((muscle) => muscle.toLowerCase().includes(query)) ||
+        item.secondaryMuscles.some((muscle) => muscle.toLowerCase().includes(query))
+    );
+    setFilteredData(filtered);
+    setShowError(filtered.length === 0);
+  };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50">
@@ -105,7 +102,7 @@ const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
           type="text"
           value={searchQuery}
           onChange={handleSearch}
-          placeholder="Search by level, category or muscles effect of Exercises"
+          placeholder="Search by category or muscles affected by Exercises"
           className="w-full p-3 border rounded-lg shadow-md"
         />
       </div>
@@ -117,7 +114,7 @@ const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
         </div>
       )}
 
-      <h1 className="text-4xl font-bold mb-6 text-gray-800">Exercise Gallery</h1>
+      <h1 className="text-4xl font-bold mb-6 text-gray-800">Expert Exercises</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
         {filteredData.map((item) => (
@@ -133,8 +130,8 @@ const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
               <Image
                 src={`/apifolder/exercises/${item.images[currentImageIndex[item.id]]}`}
                 alt={item.name}
-                width={400} // Set a fixed width
-                height={256} // Set a fixed height
+                width={400}
+                height={256}
                 className="object-cover rounded-md"
               />
               {item.images.length > 1 && (
