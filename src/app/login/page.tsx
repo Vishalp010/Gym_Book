@@ -1,14 +1,14 @@
-'use client'
+'use client';
 import React, { useState, FormEvent } from "react";
 
 const Page: React.FC = () => {
-  const [username, setUsername] = useState<string>("");
-  const [password, setPassword] = useState<string>("");
+  const [mobileNumber, setMobileNumber] = useState<string>("");
+  const [otp, setOtp] = useState<string>("");
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
-    // Handle login logic here
-    console.log("Logging in with", username, password);
+    // Handle OTP login logic here
+    console.log("Logging in with", mobileNumber, otp);
   };
 
   return (
@@ -17,36 +17,41 @@ const Page: React.FC = () => {
         <h1 className="text-3xl font-bold text-center mb-6">Login</h1>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {/* Mobile Number Input */}
           <div>
-            <label htmlFor="username" className="block text-lg font-medium">
-              Username
+            <label htmlFor="mobileNumber" className="block text-lg font-medium">
+              Mobile Number
+            </label>
+            <input
+              type="tel"
+              id="mobileNumber"
+              value={mobileNumber}
+              onChange={(e) => setMobileNumber(e.target.value)}
+              className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+              placeholder="Enter your mobile number"
+              required
+              pattern="[0-9]{10}" // Ensure only valid 10-digit numbers
+            />
+          </div>
+
+          {/* OTP Input */}
+          <div>
+            <label htmlFor="otp" className="block text-lg font-medium">
+              OTP
             </label>
             <input
               type="text"
-              id="username"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
+              id="otp"
+              value={otp}
+              onChange={(e) => setOtp(e.target.value)}
               className="w-full mt-2 p-2 border border-gray-300 rounded-md"
-              placeholder="Enter your username"
+              placeholder="Enter OTP"
               required
+              pattern="[0-9]{6}" // Assuming OTP is 6 digits
             />
           </div>
 
-          <div>
-            <label htmlFor="password" className="block text-lg font-medium">
-              Password
-            </label>
-            <input
-              type="password"
-              id="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="w-full mt-2 p-2 border border-gray-300 rounded-md"
-              placeholder="Enter your password"
-              required
-            />
-          </div>
-
+          {/* Login Button */}
           <button
             type="submit"
             className="w-full mt-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none"
@@ -57,10 +62,14 @@ const Page: React.FC = () => {
 
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-600">
-            Don't have an account?{" "}
-            <a href="/signup" className="text-blue-600 hover:text-blue-800">
-              Sign Up
-            </a>
+            Didn't receive an OTP?{" "}
+            <button
+              type="button"
+              className="text-blue-600 hover:text-blue-800 focus:outline-none"
+              onClick={() => console.log("Resend OTP")}
+            >
+              Resend
+            </button>
           </p>
         </div>
       </div>

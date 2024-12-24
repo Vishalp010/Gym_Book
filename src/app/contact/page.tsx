@@ -14,23 +14,23 @@ const Page = () => {
 
       <div className="flex flex-col items-center justify-center h-screen bg-gray-50 text-gray-800">
         {/* Main Title */}
-        <h1 className="text-9xl font-light font-poppins text-center text-gray-600">
+        <h1 className="text-6xl sm:text-7xl md:text-9xl font-light font-poppins text-center text-gray-600">
           Contact
         </h1>
 
         {/* Subtitle */}
-        <h1 className="font-lora text-xl text-center mt-4">
+        <h1 className="font-lora text-lg sm:text-xl text-center mt-4">
           Get in touch with the right people at
         </h1>
-        <h1 className="font-lora text-xl text-center">
+        <h1 className="font-lora text-lg sm:text-xl text-center">
           GYM to answer any questions
         </h1>
-        <h1 className="font-lora text-xl text-center mb-8">
+        <h1 className="font-lora text-lg sm:text-xl text-center mb-8">
           or general inquiries
         </h1>
 
         {/* Contact Box */}
-        <div className="border-solid border-2 border-gray-300 p-8 rounded-xl shadow-lg w-3/4 md:w-1/2 bg-white">
+        <div className="border-2 border-gray-300 p-8 rounded-xl shadow-lg w-3/4 sm:w-2/3 md:w-1/2 bg-white">
           <h1 className="text-2xl font-semibold text-center text-gray-500 mb-4">
             Have questions or need additional help?
           </h1>
@@ -40,7 +40,7 @@ const Page = () => {
           <h1 className="text-xl font-bold text-center text-gray-800 mb-4">
             +91 9650466390
           </h1>
-          <h1 className="text-sm text-center text-gray-500">
+          <h1 className="text-sm sm:text-base text-center text-gray-500">
             Mon-Fri 9:00am - 6:00pm EST
           </h1>
         </div>
