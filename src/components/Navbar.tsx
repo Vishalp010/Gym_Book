@@ -14,10 +14,10 @@ const Navbar = () => {
     <>
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-10 bg-gray-100">
-        <div className="container mx-auto flex justify-between items-center py-2 px-6"> {/* Further reduced padding */}
+        <div className="container mx-auto flex justify-between items-center py-2 px-6">
           {/* Logo and Name */}
           <Link
-            href="/"
+            href="/home"
             className="text-2xl font-bold flex items-center text-gray-800"
           >
             <Image
@@ -25,6 +25,7 @@ const Navbar = () => {
               alt="Gym Logo"
               width={55} // Updated logo size
               height={55}
+              priority // Added priority property
               className="mr-2"
             />
             GYM BOOK
@@ -56,20 +57,14 @@ const Navbar = () => {
 
           {/* Links for larger screens */}
           <div className="hidden sm:flex items-center space-x-6">
-            {/* <Link href="/pricing" className="hover:text-gray-600 text-gray-800">
-              Pricing
-            </Link> */}
-            <Link href="/bmi" className="hover:text-gray-600 text-gray-800">
+            <Link href="/home/bmi" className="hover:text-gray-600 text-gray-800">
               BMI Calculator
             </Link>
-            <Link href="/about" className="hover:text-gray-600 text-gray-800">
+            <Link href="/home/about" className="hover:text-gray-600 text-gray-800">
               About
             </Link>
-            <Link href="/contact" className="hover:text-gray-600 text-gray-800">
+            <Link href="/home/contact" className="hover:text-gray-600 text-gray-800">
               Contact
-            </Link>
-            <Link href="/login" className="hover:text-gray-600 text-gray-800">
-              Login
             </Link>
           </div>
         </div>
@@ -79,32 +74,25 @@ const Navbar = () => {
           <div className="sm:hidden bg-gray-200">
             <div className="flex flex-col items-start py-2 px-6 space-y-2">
               <Link
-                href="/bmi"
+                href="/home/bmi"
                 className="w-full text-gray-800 hover:text-gray-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 BMI Calculator
               </Link>
               <Link
-                href="/about"
+                href="/home/about"
                 className="w-full text-gray-800 hover:text-gray-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
-                href="/contact"
+                href="/home/contact"
                 className="w-full text-gray-800 hover:text-gray-600"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </Link>
-              <Link
-                href="/login"
-                className="w-full text-gray-800 hover:text-gray-600"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Login
               </Link>
             </div>
           </div>

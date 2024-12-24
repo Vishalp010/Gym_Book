@@ -45,19 +45,19 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row w-full md:w-[70%] md:items-start md:justify-around mt-4 md:mt-0">
           <div className="flex flex-col items-center md:items-start">
             <h1 className="text-xl font-medium mb-2 text-gray-800">COMPANY</h1>
-            <Link href="/" className="text-gray-700 hover:text-gray-800 mb-1">
+            <Link href="/home" className="text-gray-700 hover:text-gray-800 mb-1">
               Home
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-gray-800 mb-1">
+            <Link href="/home/about" className="text-gray-700 hover:text-gray-800 mb-1">
               About
             </Link>
-            <Link href="/contact" className="text-gray-700 hover:text-gray-800">
+            <Link href="/home/contact" className="text-gray-700 hover:text-gray-800">
               Contact
             </Link>
           </div>
           <div className="flex flex-col items-center md:items-start mt-4 md:mt-0">
             <h1 className="text-xl font-medium mb-2 text-gray-800">SUPPORT</h1>
-            <Link href="/faqs" className="text-gray-700 hover:text-gray-800">
+            <Link href="/home/faqs" className="text-gray-700 hover:text-gray-800">
               FAQs
             </Link>
           </div>
