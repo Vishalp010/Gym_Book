@@ -23,7 +23,7 @@ const Home: React.FC = () => {
           onClick={() => navigateTo("/home/beginner")}
         >
           <video
-            src="/1.mp4" // Replace with the actual path to the video
+            src="/4.mp4" // Replace with the actual path to the video
             autoPlay
             loop
             muted
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           onClick={() => navigateTo("/home/expert")}
         >
           <video
-            src="/4.mp4" // Replace with the actual path to the video
+            src="/1.mp4" // Replace with the actual path to the video
             autoPlay
             loop
             muted
