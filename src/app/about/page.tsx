@@ -11,14 +11,14 @@ const Page = () => {
 
         {/* Paragraph with responsive text */}
         <p className="text-base sm:text-lg md:text-xl mx-4 sm:mx-6 max-w-4xl">
-          At <span className="font-bold text-gray-800">GYM</span>, we are committed to helping you achieve your fitness goals
+          At <span className="font-bold text-gray-800">GYM BOOK</span>, we are committed to helping you achieve your fitness goals
           with personalized training and state-of-the-art equipment. Whether
           you're a beginner or an experienced athlete, our expert trainers are
           here to guide and motivate you every step of the way. Our gym offers a
           welcoming and supportive environment, where members can focus on
           building strength, improving endurance, and enhancing overall well-being.
           With flexible membership options and a wide range of fitness classes,
-          <span className="font-bold text-gray-800">GYM</span> is more than just a place to work out—it's a community dedicated
+          <span className="font-bold text-gray-800">GYM BOOK</span> is more than just a place to work out—it's a community dedicated
           to your fitness journey. Join us today and start transforming your life!
         </p>
       </div>

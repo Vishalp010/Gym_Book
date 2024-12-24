@@ -27,7 +27,7 @@ const Navbar = () => {
               height={55}
               className="mr-2"
             />
-            GYM
+            GYM BOOK
           </Link>
 
           {/* Hamburger for mobile */}
@@ -56,6 +56,9 @@ const Navbar = () => {
 
           {/* Links for larger screens */}
           <div className="hidden sm:flex items-center space-x-6">
+            {/* <Link href="/pricing" className="hover:text-gray-600 text-gray-800">
+              Pricing
+            </Link> */}
             <Link href="/bmi" className="hover:text-gray-600 text-gray-800">
               BMI Calculator
             </Link>

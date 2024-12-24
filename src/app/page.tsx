@@ -6,13 +6,17 @@ import Image from "next/image";
 
 // Define the type for each object in the array
 type DataItem = {
-  id: string;
   name: string;
+  force: string;
   level: string;
-  category: string;
+  mechanic: string;
+  equipment: string;
   primaryMuscles: string[];
+  secondaryMuscles: string[];
   instructions: string[];
+  category: string;
   images: string[];
+  id: string;
 };
 
 const Home: React.FC = () => {
@@ -28,7 +32,8 @@ const Home: React.FC = () => {
     axios
       .get("/apifolder/exercises/Myapi.json")
       .then((response) => {
-        const fetchedData: DataItem[] = response.data;
+        // Assuming the response is an object, convert it to an array
+        const fetchedData: DataItem[] = Object.values(response.data);
         setData(fetchedData);
         setFilteredData(fetchedData); // Initially show all exercises
 
@@ -151,6 +156,7 @@ const Home: React.FC = () => {
               <p><strong>Level:</strong> {item.level}</p>
               <p><strong>Category:</strong> {item.category}</p>
               <p><strong>Primary Muscles:</strong> {item.primaryMuscles.join(", ")}</p>
+              <p><strong>Secondary Muscles:</strong> {item.secondaryMuscles.join(", ")}</p>
               <p>
                 <strong>Instructions:</strong>{" "}
                 {expandedCards[item.id]

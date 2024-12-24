@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa"; // Import icons from react-icons
 
 const Footer = () => {
   return (
@@ -15,7 +16,7 @@ const Footer = () => {
         {/* Logo and Description */}
         <div className="flex flex-col items-center md:items-start w-full md:w-[30%] md:m-3">
           <div className="text-3xl font-bold flex items-center mb-3">
-            GYM
+            GYM BOOK
             <Image
               src="/Gym-Logo.png"
               alt="Gym Logo"
@@ -28,13 +29,13 @@ const Footer = () => {
             The gym fosters strength, resilience, and discipline, empowering
             individuals to achieve physical and mental goals.
           </p>
-          <Link
+          {/* <Link
             className="mt-2 text-gray-400 hover:text-gray-600"
             href="https://www.instagram.com/ivishaldangi/"
             target="_blank"
           >
             Instagram
-          </Link>
+          </Link> */}
         </div>
 
         {/* Divider for larger screens */}
@@ -68,14 +69,17 @@ const Footer = () => {
         <hr className="border-t-[0.5px] border-gray-400" />
       </div>
 
-      {/* Privacy Section */}
+      {/* Footer Bottom Section */}
       <div className="w-[90%] flex flex-col md:flex-row items-center justify-between mt-2 text-gray-400 text-xs">
+        {/* Terms and Privacy Links */}
         <div className="flex flex-col md:flex-row items-center">
           <span className="mr-5 mb-2 md:mb-0 cursor-pointer hover:text-gray-600">
             Terms and Conditions
           </span>
           <span className="cursor-pointer hover:text-gray-600">Privacy Policy</span>
         </div>
+
+        {/* Site by Vishal */}
         <div className="mt-2 md:mt-0">
           <span>
             site by{" "}
@@ -87,6 +91,39 @@ const Footer = () => {
               Vishal
             </a>
           </span>
+        </div>
+
+        {/* Social Media Icons */}
+        <div className="flex space-x-6 mt-4 md:mt-0">
+          {/* Instagram Icon */}
+          <Link
+            href="https://www.instagram.com/ivishaldangi/"
+            target="_blank"
+            className="flex items-center space-x-2 text-gray-600 hover:text-gray-800"
+          >
+            <FaInstagram className="text-xl" />
+            <span className="hidden md:inline">Instagram</span>
+          </Link>
+
+          {/* Facebook Icon */}
+          <Link
+            href="https://www.facebook.com/ivishaldangi/"
+            target="_blank"
+            className="flex items-center space-x-2 text-gray-600 hover:text-gray-800"
+          >
+            <FaFacebook className="text-xl" />
+            <span className="hidden md:inline">Facebook</span>
+          </Link>
+
+          {/* WhatsApp Icon */}
+          <Link
+            href="https://wa.me/+919650466390/"
+            target="_blank"
+            className="flex items-center space-x-2 text-gray-600 hover:text-gray-800"
+          >
+            <FaWhatsapp className="text-xl" />
+            <span className="hidden md:inline">WhatsApp</span>
+          </Link>
         </div>
       </div>
     </div>
