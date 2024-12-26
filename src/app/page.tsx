@@ -5,47 +5,26 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
 const LoginPage: React.FC = () => {
-  const [mobileNumber, setMobileNumber] = useState<string>("");
-  const [otp, setOtp] = useState<string>("");
-  const [otpSent, setOtpSent] = useState<boolean>(false);
+  const [username, setUsername] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
   const [error, setError] = useState<string | null>(null);
   const router = useRouter();
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
-    if (!otpSent) {
-      // Send OTP to the mobile number
-      const response = await fetch("/api/auth/sendOtp", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ mobileNumber }),
-      });
+    // Validate credentials and sign in the user
+    const result = await signIn("credentials", {
+      redirect: false,
+      username,
+      password,
+    });
 
-      const data = await response.json();
-      if (data.success) {
-        setOtpSent(true);
-        setError(null);
-        console.log("OTP sent to mobile number");
-      } else {
-        setError("Error sending OTP. Please try again.");
-      }
+    if (result?.error) {
+      setError(result.error);
     } else {
-      // Validate OTP and sign in the user
-      const result = await signIn("credentials", {
-        redirect: false,
-        mobileNumber,
-        otp,
-      });
-
-      if (result?.error) {
-        setError(result.error);
-      } else {
-        // Redirect to home page on successful OTP validation
-        router.push("/home");
-      }
+      // Redirect to the home page on successful login
+      router.push("/home");
     }
   };
 
@@ -57,62 +36,56 @@ const LoginPage: React.FC = () => {
         {error && <p className="text-red-500 text-center mb-4">{error}</p>}
 
         <form onSubmit={handleSubmit} className="space-y-4">
-          {/* Mobile Number Input */}
-          {!otpSent && (
-            <div>
-              <label htmlFor="mobileNumber" className="block text-lg font-medium">
-                Mobile Number
-              </label>
-              <input
-                type="tel"
-                id="mobileNumber"
-                value={mobileNumber}
-                onChange={(e) => setMobileNumber(e.target.value)}
-                className="w-full mt-2 p-2 border border-gray-300 rounded-md"
-                placeholder="Enter your mobile number"
-                required
-                pattern="[0-9]{10}"
-              />
-            </div>
-          )}
+          {/* Username Input */}
+          <div>
+            <label htmlFor="username" className="block text-lg font-medium">
+              Username
+            </label>
+            <input
+              type="text"
+              id="username"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
 
-          {/* OTP Input */}
-          {otpSent && (
-            <div>
-              <label htmlFor="otp" className="block text-lg font-medium">
-                OTP
-              </label>
-              <input
-                type="text"
-                id="otp"
-                value={otp}
-                onChange={(e) => setOtp(e.target.value)}
-                className="w-full mt-2 p-2 border border-gray-300 rounded-md"
-                placeholder="Enter OTP"
-                required
-                pattern="[0-9]{6}"
-              />
-            </div>
-          )}
+          {/* Password Input */}
+          <div>
+            <label htmlFor="password" className="block text-lg font-medium">
+              Password
+            </label>
+            <input
+              type="password"
+              id="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="w-full mt-2 p-2 border border-gray-300 rounded-md"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
 
           {/* Submit Button */}
           <button
             type="submit"
             className="w-full mt-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none"
           >
-            {otpSent ? "Validate OTP" : "Send OTP"}
+            Login
           </button>
         </form>
 
         <div className="mt-4 text-center">
           <p className="text-sm text-gray-600">
-            Didn't receive an OTP?{" "}
+            Don't have an account?{" "}
             <button
               type="button"
               className="text-blue-600 hover:text-blue-800 focus:outline-none"
-              onClick={() => console.log("Resend OTP")}
+              onClick={() => router.push("/register")}
             >
-              Resend
+              Register
             </button>
           </p>
         </div>
