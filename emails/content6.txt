@@ -1,0 +1,18 @@
+-----step 6----
+for all read the documentation on resend https://resend.com/docs/send-with-nextjs
+this folder have all the templates that we r going to use for our emails handling in the website 
+templates are those format in which we are going to send the email to the user that have the verification code in it 
+
+our template is verificationemail.tsx here 
+
+
+
+Welcome to GYM_BOOK!
+Hi JohnDoe,
+Your verification code is:
+
+123456
+
+Please enter this code to verify your email address.
+
+this is our template

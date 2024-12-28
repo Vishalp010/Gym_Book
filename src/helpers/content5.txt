@@ -1,0 +1,2 @@
+---step 5---
+this folder consist of the files which have used in step 4 to handle the resend.ts in the lib folder as there are the function to send email so here we are dealing with it seperately for the segregation purpose

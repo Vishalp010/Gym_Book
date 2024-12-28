@@ -1,0 +1,8 @@
+step 6
+
+jb b hum response bheje koi wo hmaari isi type ki guideline ko follow kre wo response jo hum is folder me define krege
+isme hum kis type se hmaare response dikhna chahye wo sb rkhege
+
+
+
+ye folder ka kaam abhi b jra pending h API response wala part specially 

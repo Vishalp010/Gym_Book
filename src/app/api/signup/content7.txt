@@ -1,0 +1,22 @@
+---step 7---
+
+folder k ander route.ts hi likhna h folder name ko 
+is folder me hum apne /signup route ko define krege uski functionality and all 
+yaha hum api hi likhege 
+dbConnect har ek route me isliy use hote h kuki nextjs edge working platform h so har api k liy uska harr baar connect hona is mandatory
+
+code should effectively handles both scenarios of registering a new user and updating an exitsting but unverified user account with a new password and verification code.
+
+if existingUserByEmail EXISTS THEN
+   IF existingUserByEmail.isVerified THEN
+	success :false,
+   Else 
+        save the updated user
+   END IF
+ELSE 
+   create a new user with the provided details
+   save the new user 
+
+END IF
+
+this is the functionality we gonna handle here 

@@ -1,0 +1,11 @@
+--step 3--
+
+
+is file me wo file hogi jo db ko connect krne me useful hoti h 
+is file ka naam lib jo h shadCn ko dhyan rkhte hue b rkha jaaataa h kuki shadcn installation me lib file b create hoti h ek and hn dhyan rkhna ye h ki lib ho Lib ya fir libs nahi 
+and this ffolder also contains shadcn util file
+
+
+
+---step 4 ----
+isme hum resend.ts file bnaare h for sending mail for the registeration of the users
